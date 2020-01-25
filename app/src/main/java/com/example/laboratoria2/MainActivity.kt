@@ -43,10 +43,12 @@ class MainActivity : AppCompatActivity() {
         if(nCounter == 10){
             trophyView.setImageResource(R.drawable.running)
             countView.text = "$nCounter"
+            Toast.makeText(this, "Ya vamos a la mitad", Toast.LENGTH_SHORT).show()
         }
         else if (nCounter == 20){
             trophyView.setImageResource(R.drawable.trophy)
             countView.text = "$nCounter"
+            Toast.makeText(this, "Ya hemos terminado", Toast.LENGTH_SHORT).show()
         }
         else if (nCounter<21){
             countView.text = "$nCounter"
