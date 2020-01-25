@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Laboratoria2</string>
+    <string name="count_button">Count</string>
+    <string name="reset_button">Restart</string>
+    <string name="counter">0</string>
+</resources>
